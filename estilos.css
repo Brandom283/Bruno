@@ -1,0 +1,79 @@
+body
+{
+ /* background: #32ECAB; */
+  background: linear-gradient(#F2340A, #E8E516, #F2340A );
+  height:100vh;
+}
+
+h1
+{
+  color: #1BF409; 
+}
+
+p
+{
+  color:#1BF409; 
+}
+
+.JoseAlberto
+{
+  color: purple
+}
+
+form
+{
+  background: rgba(255, 255, 255, 0.5);
+  width:280px;
+  display: flex;
+  flex-direction: column;
+  aling-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 30px;
+}
+
+label
+{
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+}
+
+#nombre
+{
+  border-radius: 12px;
+  border: none;
+  padding: 8px;
+  outline: none;
+}
+#email
+{
+  border-radius: 12px;
+  border: none;
+  padding: 8px;
+  outline: none;
+}
+#message
+{
+  border-radius: 12px;
+  border: none;
+  padding: 8px;
+  outline: none;
+}
+#botton-enviar
+{
+  background: white;
+  border-radius: 12px;
+  border: none;
+  padding: 8px;
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#botton-enviar:hover
+{
+ background: #2DB1C5;
+}
